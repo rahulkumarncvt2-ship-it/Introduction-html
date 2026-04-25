@@ -3,43 +3,48 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Rahul Portfolio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <style>
-body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif;background:#030303;color:#fff}*{box-sizing:border-box}.container{max-width:1280px;margin:auto;padding:30px}.top{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}.btn{padding:14px 26px;border:1px solid rgba(255,255,255,.12);border-radius:40px;background:rgba(255,255,255,.02);transition:.35s}.btn:hover{transform:translateY(-4px);border-color:#00ff88}.hero{display:grid;grid-template-columns:1fr 1.4fr 1fr;gap:20px;align-items:center;padding:70px 0}.left,.right{font-size:22px;line-height:1.6;color:#ddd}.name{font-size:180px;font-weight:800;line-height:.9;letter-spacing:-5px;text-align:center;background:linear-gradient(#fff,#777);-webkit-background-clip:text;color:transparent;text-shadow:0 0 25px rgba(0,255,136,.12)}.sub{text-align:center;letter-spacing:8px;color:#aaa;margin-top:10px}.green{color:#00ff88}.bar{border:1px solid rgba(255,255,255,.08);padding:24px;border-radius:22px;margin:20px 0}.tools,.social{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.tool,.soc{text-align:center;padding:18px;border:1px solid rgba(255,255,255,.08);border-radius:18px;transition:.35s}.tool:hover,.soc:hover{transform:translateY(-6px);border-color:#00ff88}.headline{font-size:54px;line-height:1.25;margin:60px 0 18px}.muted{color:#bdbdbd;line-height:1.8}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:26px}.card{padding:28px;border:1px solid rgba(255,255,255,.08);border-radius:24px;min-height:180px;transition:.4s}.card:hover{transform:translateY(-8px);box-shadow:0 0 28px rgba(0,255,136,.12);border-color:#00ff88}@media(max-width:900px){.hero{grid-template-columns:1fr}.name{font-size:96px}.cards{grid-template-columns:1fr}.tools,.social{grid-template-columns:repeat(2,1fr)}.headline{font-size:34px}}
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif;background:#030303;color:#fff}a{text-decoration:none;color:inherit}.container{max-width:1280px;margin:auto;padding:28px}.top{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}.btn,.tool,.soc,.card{border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.02)}.btn{padding:14px 24px;border-radius:40px;transition:.3s}.btn:hover,.tool:hover,.soc:hover,.card:hover{transform:translateY(-6px);border-color:#00ff88;box-shadow:0 0 18px rgba(0,255,136,.15)}.hero{display:grid;grid-template-columns:1fr 1.4fr 1fr;gap:20px;align-items:center;padding:70px 0}.left,.right{font-size:22px;line-height:1.7;color:#ddd}.name{font-size:180px;font-weight:800;line-height:.9;letter-spacing:-5px;text-align:center;background:linear-gradient(#fff,#777);-webkit-background-clip:text;color:transparent;text-shadow:0 0 25px rgba(0,255,136,.12)}.sub{text-align:center;letter-spacing:7px;color:#aaa;margin-top:10px}.green{color:#00ff88}.bar{padding:22px;border:1px solid rgba(255,255,255,.08);border-radius:22px;margin:20px 0}.tools,.social{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.tool,.soc{padding:18px;border-radius:18px;text-align:center}.headline{font-size:54px;line-height:1.2;margin:60px 0 18px}.muted{color:#bdbdbd;line-height:1.8}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px}.card{padding:28px;border-radius:24px;min-height:180px}.card i{font-size:28px;color:#00ff88;margin-bottom:16px}h2{margin-top:55px;margin-bottom:18px}.soc i{font-size:22px;margin-bottom:8px;display:block;color:#00ff88}.small{font-size:13px;color:#bbb;margin-top:4px}@media(max-width:900px){.hero{grid-template-columns:1fr}.name{font-size:96px}.cards{grid-template-columns:1fr}.tools,.social{grid-template-columns:repeat(2,1fr)}.headline{font-size:34px}.left,.right{font-size:18px}}
 </style>
 </head>
 <body>
 <div class='container'>
 <div class='top'>
-<div class='btn'>see my work</div>
-<div class='btn'>my catalog</div>
-<div class='btn'>book a service</div>
+<div class='btn'>see my work</div><div class='btn'>my catalog</div><div class='btn'>book a service</div>
 </div>
 <div class='hero'>
 <div class='left'>graphic / product<br>& brand designer</div>
-<div>
-<div class='name'>Rahul</div>
-<div class='sub'>CREATIVE DESIGNER / WEB DEVELOPER</div>
-<div class='sub green'>DIGITAL PORTFOLIO CREATOR</div>
-</div>
+<div><div class='name'>Rahul</div><div class='sub'>CREATIVE DESIGNER / WEB DEVELOPER</div><div class='sub green'>DIGITAL PORTFOLIO CREATOR</div></div>
 <div class='right'>I'm <span class='green'>Rahul</span>, a creative mind from Bihar focused on design, websites and digital innovation.<br><br>I also work with <span class='green'>AI tools</span>, image generation, prompt creation, and modern technology.</div>
 </div>
 <div class='bar tools'>
-<div class='tool'>Illustrator</div><div class='tool'>Photoshop</div><div class='tool'>Canva</div><div class='tool'>Asana</div><div class='tool'>Dropbox</div><div class='tool'>AI+</div>
+<div class='tool'><i class='fa-brands fa-adobe'></i><div>Illustrator</div></div>
+<div class='tool'><i class='fa-solid fa-image'></i><div>Photoshop</div></div>
+<div class='tool'><i class='fa-solid fa-pen-ruler'></i><div>Canva</div></div>
+<div class='tool'><i class='fa-solid fa-list-check'></i><div>Asana</div></div>
+<div class='tool'><i class='fa-solid fa-box'></i><div>Dropbox</div></div>
+<div class='tool'><i class='fa-solid fa-wand-magic-sparkles'></i><div>AI+</div></div>
 </div>
 <div class='headline'>Crafting incredible, impactful, satisfactory <span class='green'>designs</span>, brand <span class='green'>identities</span> and many more...</div>
-<div class='muted'>Design is not just about pictures, words, logo, color and typography, it is a way of telling a brand's story, communicating ideas, identifying real problems and providing solutions.</div>
-<h2 style='margin-top:55px'>what i do</h2>
+<div class='muted'>Design is not just about pictures, words, logo, color and typography, it is a way of telling a brand story and providing solutions.</div>
+<h2>what i do</h2>
 <div class='cards'>
-<div class='card'>brand identity & logo design</div>
-<div class='card'>social media ads / design</div>
-<div class='card'>youtube thumbnails</div>
-<div class='card'>movie posters / album covers</div>
-<div class='card'>sports design</div>
-<div class='card'>ai prompt for design and others</div>
+<div class='card'><i class='fa-solid fa-pen-nib'></i>brand identity & logo design</div>
+<div class='card'><i class='fa-solid fa-bullhorn'></i>social media ads / design</div>
+<div class='card'><i class='fa-brands fa-youtube'></i>youtube thumbnails</div>
+<div class='card'><i class='fa-solid fa-film'></i>movie posters / album covers</div>
+<div class='card'><i class='fa-solid fa-futbol'></i>sports design</div>
+<div class='card'><i class='fa-solid fa-robot'></i>ai prompt for design and others</div>
 </div>
-<h2 style='margin-top:55px'>contact me</h2>
+<h2>contact me</h2>
 <div class='bar social'>
-<div class='soc'>Gmail</div><div class='soc'>Instagram</div><div class='soc'>WhatsApp</div><div class='soc'>X / Twitter</div><div class='soc'>Pinterest</div><div class='soc'>Behance</div>
+<a class='soc' href='mailto:rahulkumarncvt2@gmail.com'><i class='fa-solid fa-envelope'></i>Gmail<div class='small'>rahulkumarncvt2@gmail.com</div></a>
+<a class='soc' href='https://instagram.com' target='_blank'><i class='fa-brands fa-instagram'></i>Instagram</a>
+<a class='soc' href='https://wa.me/917463985387' target='_blank'><i class='fa-brands fa-whatsapp'></i>WhatsApp<div class='small'>+91 74639 85387</div></a>
+<a class='soc' href='https://x.com' target='_blank'><i class='fa-brands fa-x-twitter'></i>X / Twitter</a>
+<a class='soc' href='https://pinterest.com' target='_blank'><i class='fa-brands fa-pinterest'></i>Pinterest</a>
+<a class='soc' href='https://maps.google.com/?q=Chandokhra,Gurua,Gaya,Bihar'><i class='fa-solid fa-location-dot'></i>Address<div class='small'>Chandokhra, Gurua Gaya</div></a>
 </div>
 </div>
 </body>
